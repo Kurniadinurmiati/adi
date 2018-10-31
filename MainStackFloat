@@ -1,0 +1,38 @@
+
+public class MainStackFloat {
+	public static void main(Float[] args) {
+		StackFloat kur = new StackFloat();
+		kur.cetak();
+		
+		kur.push(2.5F); kur.cetak();
+		kur.push(2.3F); kur.cetak();
+		kur.push(8.9F); kur.cetak();
+		kur.push(1.5F);kur.cetak();
+		
+		float d0 = (float) kur.pop();
+		System.out.println(d0);
+		kur.cetak();
+		
+		float d1 = (float) kur.pop();
+		System.out.println(d1);
+		kur.cetak();
+		
+		float d2 = (float) kur.pop();
+		System.out.println(d2);
+		kur.cetak();
+		
+		float d3 = (float) kur.pop();
+		System.out.println(d3);
+		kur.cetak();
+		
+		float d9 = (float) kur.pop();
+		System.out.println(d9);
+		kur.cetak();
+		
+		float d100 = (float) kur.pop();
+		System.out.println(d100);
+		kur.cetak();
+
+	}
+
+}
